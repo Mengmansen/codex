@@ -1,0 +1,26 @@
+ ~ % >....                                                                                                                                                                                                              
+    "windows-sandbox-service": {
+      "root": "codex-rs/windows-sandbox-service",
+      "runtime": "rust"
+    },
+    "scripts": {
+      "root": "scripts",
+      "runtime": "python"
+    },
+    "smoke_tests": {
+      "root": "scripts/codex_package/smoke_tests",
+      "runtime": "python"
+    },
+    "python": {
+      "root": "sdk/python",
+      "runtime": "python"
+    },
+    "python-runtime": {
+      "root": "sdk/python-runtime",
+      "runtime": "python"
+    }
+  },
+  "rewrites": []
+}
+```
+
